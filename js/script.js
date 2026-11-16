@@ -1,12 +1,9 @@
-// Boton para cambiar entre modo claro y oscuro
-var boton = document.getElementById("boton-tema");
+// Contador de goles
+var goles = 0;
+var boton = document.getElementById("boton-gol");
+var contador = document.getElementById("goles");
 
 boton.addEventListener("click", function () {
-  document.body.classList.toggle("oscuro");
+  goles = goles + 1;
+  contador.textContent = goles;
 });
-
-// Mostrar la fecha de hoy
-var fecha = document.getElementById("fecha");
-var hoy = new Date();
-
-fecha.textContent = hoy.toLocaleDateString();

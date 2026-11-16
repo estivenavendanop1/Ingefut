@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Café Aroma - Inicio</title>
+  <title>Fútbol - Inicio</title>
   <link rel="icon" type="image/png" href="img/favicon.png">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
-    <h1>Café Aroma</h1>
+    <h1>Mi Página de Fútbol</h1>
     <nav>
       <a href="index.html">Inicio</a>
-      <a href="paginas/productos.html">Productos</a>
+      <a href="paginas/equipos.html">Equipos</a>
       <a href="paginas/multimedia.html">Multimedia</a>
       <a href="paginas/contacto.html">Contacto</a>
     </nav>
@@ -21,37 +21,29 @@
   <main>
     <section>
       <h2>Bienvenidos</h2>
-      <p>
-        Somos una cafetería pequeña donde preparamos el mejor café de la ciudad.
-        Esta página fue hecha como proyecto de desarrollo web.
-      </p>
-      <img src="img/cafe-principal.svg" alt="Taza de café humeante">
-      <p><button id="boton-tema">Cambiar modo claro / oscuro</button></p>
+      <p>El fútbol es el deporte más popular del mundo. En esta página hablo de lo que más me gusta de este deporte.</p>
+      <img src="img/balon.svg" alt="Balón de fútbol">
     </section>
 
     <section>
-      <h2>¿Por qué elegirnos?</h2>
-      <ul>
-        <li>Café 100% colombiano</li>
-        <li>Ambiente tranquilo para estudiar</li>
-        <li>Precios para estudiantes</li>
-        <li>Wifi gratis</li>
-      </ul>
+      <h2>Cuenta los goles</h2>
+      <button id="boton-gol">¡Gol!</button>
+      <p>Goles: <span id="goles">0</span></p>
     </section>
 
     <section>
-      <h2>¿Cómo preparamos el café?</h2>
+      <h2>Reglas básicas</h2>
       <ol>
-        <li>Seleccionamos los granos.</li>
-        <li>Los tostamos y molemos.</li>
-        <li>Calentamos el agua.</li>
-        <li>Servimos con cariño.</li>
+        <li>Cada equipo juega con 11 jugadores.</li>
+        <li>El partido dura 90 minutos, en dos tiempos de 45.</li>
+        <li>Solo el portero puede usar las manos dentro de su área.</li>
+        <li>Gana el equipo que haga más goles.</li>
       </ol>
     </section>
   </main>
 
   <footer>
-    <p>Proyecto de Desarrollo Web - Hoy es <span id="fecha"></span></p>
+    <p>Proyecto de Desarrollo Web</p>
   </footer>
 
   <script src="js/script.js"></script>
