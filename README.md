@@ -25,4 +25,4 @@ proyecto_web/
 - Navegación entre 4 páginas
 - Tablas, listas y formularios
 - CSS
-- Funcionalidad con JS (modo oscuro, fecha y validación del formulario)
+- Funcionalidad con JS (modo oscuro, fecha y mensaje al enviar el formulario)

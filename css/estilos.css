@@ -143,14 +143,6 @@ button:hover {
   font-weight: bold;
 }
 
-.error {
-  color: #b00020;
-}
-
-.exito {
-  color: #2e7d32;
-}
-
 /* Modo oscuro (se activa con JavaScript) */
 body.oscuro {
   background-color: #2b211b;
