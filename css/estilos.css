@@ -13,8 +13,16 @@ header {
 }
 
 nav a {
-  color: white;
-  margin: 0 10px;
+  background-color: rgb(7, 206, 113);
+  color: #2e8b3d;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #cfe8d2;
 }
 
 main {
@@ -74,7 +82,8 @@ button {
   color: white;
   border: none;
   padding: 10px 20px;
-  margin-top: 10px;
+  margin-top: 4px;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -91,4 +100,39 @@ footer {
     display: block;
     margin: 5px 0;
   }
+}
+.foto {
+  
+  height: 260px;
+}
+.centrada {
+  
+   display: block;
+  margin: 0 auto;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.galeria figure {
+  margin: 0;
+}
+
+.galeria img {
+  width: 220px;
+}
+
+.galeria figcaption {
+  text-align: center;
+}
+.marcador {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.equipo {
+  text-align: center;
 }

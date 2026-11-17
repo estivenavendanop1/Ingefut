@@ -3,47 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fútbol - Inicio</title>
-  <link rel="icon" type="image/png" href="img/favicon.png">
+  <title>Ingeniosfut</title>
+  <link rel="icon" type="image/svg+xml" href="img/balon.svg">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <header>
-    <h1>Mi Página de Fútbol</h1>
+    <h1>Ingeniosfut</h1>
     <nav>
       <a href="index.html">Inicio</a>
-      <a href="paginas/equipos.html">Equipos</a>
-      <a href="paginas/multimedia.html">Multimedia</a>
-      <a href="paginas/contacto.html">Contacto</a>
+      <a href="paginas/equipos.html">Clubes</a>
+      <a href="paginas/multimedia.html">Momentos (FPC)</a>
+      <a href="paginas/contacto.html">Formulario</a>
     </nav>
   </header>
 
   <main>
     <section>
-      <h2>Bienvenidos</h2>
-      <p>El fútbol es el deporte más popular del mundo. En esta página hablo de lo que más me gusta de este deporte.</p>
-      <img src="img/balon.svg" alt="Balón de fútbol">
+      <h2>Futbol Colombiano en acción</h2> 
+      <p>Sean bienvenidos a la mejor página del fútbol colombiano. Aquí puedes encontrar algunos de los principales equipos.</p>
+      <img src="img/dimayor.png" alt="Balón de fútbol" class="centrada">
     </section>
 
     <section>
-      <h2>Cuenta los goles</h2>
+  <h2>Pulsa para marcar los goles!!!!!</h2>
+
+  <div class="marcador">
+    <div class="equipo">
+      <h2>Local</h2>
       <button id="boton-gol">¡Gol!</button>
       <p>Goles: <span id="goles">0</span></p>
-    </section>
+    </div>
+
+    <div class="equipo">
+      <h2>Visitante</h2>
+      <button id="boton-gold">¡Gol!</button>
+      <p>Goles: <span id="golesd">0</span></p>
+    </div>
+  </div>
+</section>
 
     <section>
-      <h2>Reglas básicas</h2>
+      <h2>Reglas básicas del futbol</h2>
       <ol>
         <li>Cada equipo juega con 11 jugadores.</li>
         <li>El partido dura 90 minutos, en dos tiempos de 45.</li>
         <li>Solo el portero puede usar las manos dentro de su área.</li>
         <li>Gana el equipo que haga más goles.</li>
+        <li>Si en un torneo oficial hay empate, se puede jugar tiempo extra o penales.</li>
+        <li>El fuera de lugar es una regla que impide que un jugador reciba el balón estando más cerca de la portería rival que el penúltimo defensor.</li>
+        <li>El árbitro es la máxima autoridad en el campo y sus decisiones son finales.</li> 
       </ol>
     </section>
   </main>
 
   <footer>
-    <p>Proyecto de Desarrollo Web</p>
+    <p>UNILLANOS</p>
   </footer>
 
   <script src="js/script.js"></script>
